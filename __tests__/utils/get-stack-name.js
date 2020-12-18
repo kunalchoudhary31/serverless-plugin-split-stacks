@@ -7,7 +7,7 @@ const utils = require('../../lib/utils');
 
 const fullResources = {};
 
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 500; i++) {
 	fullResources[i] = {};
 }
 

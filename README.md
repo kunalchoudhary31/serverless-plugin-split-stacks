@@ -2,7 +2,7 @@
 
 # serverless-plugin-split-stacks
 
-This plugin migrates CloudFormation resources in to nested stacks in order to work around the 200 resource limit.
+This plugin migrates CloudFormation resources in to nested stacks in order to work around the 500 resource limit.
 
 There are built-in migration strategies that can be turned on or off as well as defining your own custom migrations. You configure this in your `serverless.yml` (defaults shown):
 
@@ -25,7 +25,7 @@ This moves resources in to a nested stack for the given resource type. If `Per L
 
 ## Limitations
 
-This plugin is not a substitute for fine-grained services - try to limit the size of your service. This plugin has a hard limit of 200 sub-stacks and does not try to create any kind of tree of nested stacks.
+This plugin is not a substitute for fine-grained services - try to limit the size of your service. This plugin has a hard limit of 500 sub-stacks and does not try to create any kind of tree of nested stacks.
 
 ## Advanced Usage
 
